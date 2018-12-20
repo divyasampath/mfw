@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+}
+
+/* margin and padding */
+
+.m15-top {
+  margin-top: 15px;
+}
+
+.p10 {
+  padding: 10px;
+}
+/*logo effects*/
+.logo-mask {
+  background: url("../img/logo.jpg") no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/*navigation-menu*/
+.home-icon {
+  padding: 0px 10px;
+}
+
+/*showcase*/
+img {
+  width: 100%;
+}
+div.caption * {
+  color: black;
+}
+
+.feature-article {
+  display: flex;
+}
+
+.tag {
+  padding: 3px 5px;
+  font-size: 11px;
+}
+.new-title {
+  padding: 20px;
+  width: 25%;
+}
+
+.post {
+  display: flex;
+  margin: 10px;
+}
+
+.post img {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
+
+.post-heading {
+  margin-bottom: 5px;
+  font-size: 15px;
+  line-height: 18px;
+  margin-top: 0;
+}
+
+.post-date {
+  color: #b2b0b0;
+}
+
+.category {
+  background-color: #fafafa;
+}
